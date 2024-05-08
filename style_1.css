@@ -1,0 +1,44 @@
+/*estilização do <body>*/
+body {
+ margin: 0px;
+ border: 0px;
+ padding: 0px;
+ font-family: "consolas", sans-serif;
+ text-align: center;
+ background-color: rgb(12,20,18);
+}
+/*estilização do <select>*/
+select {
+ width: 100px;
+ background-color: rgb(120,205,180);
+}
+/*estilização do <label>*/
+label {
+ color: rgb(120,140,150);
+}
+/*estilização do <button>*/
+button {
+ background-color: rgb(12,20,18);
+ color: rgb(220,220,20);
+ width: 80px;
+ height: 35px;
+}
+/*classe estilizada para <div> formulário*/
+.div-formulario {
+ margin: 20px auto;
+ padding: 0px 30px 0px 10px;
+ border: 4px solid black;
+ width: 220px;
+ color: rgb(110,150,150);
+ text-align: right;
+}
+/*classe estilizada para <div> quadro*/
+.div-quadro {
+ margin: 20px auto;
+ padding: 0px 20px 20px 20px;
+ border: 4px solid black;
+ width: 220px;
+ background-color: rgb(6,10,9);
+ color: rgb(150,150,110);
+ text-align: left;
+}

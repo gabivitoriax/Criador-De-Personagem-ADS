@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <meta charset="utf-8">
+ <!--Incorporação do arquivo (script_1.js)-->
+ <script src="script_1.js" type="text/JavaScript"></script>
+ <!--Incorporação do arquivo (style_1.css)-->
+ <link href="style_1.css" rel="stylesheet">
+ <title>Personagem</title>
+</head>
+<body>
+ <br /><label>CRIAÇÃO DO PERSONAGEM</label><br />
+ <div class="div-formulario">
+ <p>
+ Gênero:
+ <select id="0" name="Gênero">
+   <option>Feminino</option>
+   <option>Masculino</option>
+  </select>
+ </p>
+ <p>
+ Categoria:
+ <select id="1" name="Categoria">
+   <option>Arqueiro</option>
+   <option>Barbaro</option>
+   <option>Ladino</option>
+  </select>
+ </p>
+ <p>
+ Natureza:
+ <select id="2" name="Natureza">
+   <option>Anao</option>
+   <option>Elfo</option>
+   <option>Humano</option>
+  </select>
+ </p>
+ </div>
+ <p><button type="button" onclick="SalvarHeroi()">Salvar</button></p>
+ <div class="div-quadro">
+ <br>Gênero: <label id="genero"></label>
+ <br>Categoria: <label id="categoria"></label>
+ <br>Natureza: <label id="natureza"></label>
+ <br>Equipamento: <label id="equipamento"></label>
+</div>
+</body>
+</html>
